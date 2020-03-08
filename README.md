@@ -8,5 +8,6 @@ The attributes of `<p>`'s children will be attached to sibling of `<p>` found la
 # Steps to reproduce
 
 1. `preact create --yarn --git simple preact-p-problem`
-2. Add code: `<p>{[<div ...></div>]}</p>`
-3. `yarn run serve`
+2. `yarn upgrade preact@latest preact-render-to-string@latest`
+3. Add code: `<p>{[<div ...></div>]}</p>`
+4. `yarn run serve`
